@@ -17,6 +17,3 @@ def count_letters(text):
         else:
             letter_count[char] = 1
     return letter_count
-
-
-print(count_letters(file_contents))
